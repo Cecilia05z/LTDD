@@ -1,0 +1,41 @@
+# Node.js
+**/node_modules/
+**/npm-debug.log*
+
+# React Native
+**/.expo/
+**/.metro-health-check*
+
+# Android / Gradle
+**/.gradle/
+**/build/
+**/local.properties
+**/.cxx/
+**/.externalNativeBuild/
+**/android/app/debug.keystore
+
+# Java / Maven
+**/target/
+**/*.class
+
+# iOS
+**/Pods/
+**/DerivedData/
+
+# Ruby Bundler
+**/.bundle/
+
+# Environment and secrets
+**/.env
+**/.env.*
+!**/.env.example
+**/*.jks
+**/*.keystore
+
+# IDE and OS
+**/.idea/
+**/.DS_Store
+**/Thumbs.db
+
+# Android debug keystore
+**/android/app/debug.keystore
