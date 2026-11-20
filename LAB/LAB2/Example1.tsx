@@ -20,3 +20,5 @@ export default class Example1 extends React.Component {
     );
   }
 }
+
+AppRegistry.registerComponent('Example1', () => Example1);
