@@ -39,4 +39,26 @@ export const styles = StyleSheet.create({
         color: 'red',
         marginBottom: 10,
     },
+
+   optButton: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        backgroundColor: 'blue',
+        padding: 18,
+        marginBottom: 15,
+        borderRadius: 16,
+
+        elevation: 3,
+
+        shadowColor: '#000',
+        shadowOffset: {
+            width: 0,
+            height: 2,
+        }
+    },
+
+    optButText: {
+        color: 'white',
+        fontWeight: 'bold',
+   },
 });

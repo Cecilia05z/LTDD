@@ -6,4 +6,8 @@ export type RootStackParamList = {
             username: string;
         };
     };
+
+    Factorial: undefined;
+
+    Currency: undefined;
 };

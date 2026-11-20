@@ -1,10 +1,17 @@
 import React, { Component } from "react";
 import { View } from "react-native";
+import HomeUIComponent from "../components/HomeUIComponent";
 
-export default class HomeScreen extends Component {
+interface HomeScreenProps {
+    navigation: any;
+}
+
+export default class HomeScreen extends Component<HomeScreenProps> {
     render() {
         return (
-            <View>Home</View>
+            <View>
+                <HomeUIComponent navigation={this.props.navigation} />
+            </View>
         );
     }
 }
