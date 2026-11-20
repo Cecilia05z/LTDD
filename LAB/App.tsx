@@ -1,20 +1,23 @@
 import React, { Component } from 'react';
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
 
 import Example1 from './LAB2/Example1';
+import Example2 from './LAB2/Example2';
+import Example3 from './LAB2/Example3';
+import Example4 from './LAB2/Example4';
+import Example5 from './LAB2/Example5';
+import Example6 from './LAB2/Example6';
 
-export default class App extends Component<{}, { message: string }> {
-  constructor(props: {}) {
-    super(props);
-    this.state = {
-      message: 'Hello, World!',
-    };
-  }
+export default class App extends Component {
   render() {
     return (
       <View>
-        <Text>{this.state.message}</Text>
         <Example1 />
+        <Example2 />
+        <Example3 />
+        <Example4 />
+        <Example5 />
+        <Example6 />
       </View>
     );
   }
